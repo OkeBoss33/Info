@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trusted Gaming Platform | Free Credit & Bukti Cuci</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      padding: 20px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      color: gold;
+      font-weight: 900;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+.banner-slider {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.banner-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+    .banner-track img {
+  width: 100%;
+  height: auto;
+  display: block;
+  flex-shrink: 0;
+}
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      color: gold;
+      font-weight: 900;
+    }
+    .hero p {
+      margin: 20px 0;
+      font-size: 1.2rem;
+    }
+    .cta-btn {
+      background: gold;
+      color: #000;
+      padding: 15px 30px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: background 0.3s, transform 0.3s;
+    }
+.cta-btn:hover {
+  background: linear-gradient(45deg, #ffd700, #ff8c00);
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 200, 0, 0.8);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      color: gold;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .resit-gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .resit-gallery img {
+      width: 200px;
+      margin: 10px;
+      border: 2px solid gold;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .resit-gallery img:hover {
+      transform: scale(1.05);
+    }
+    .hot-games-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .hot-game-row {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .hot-game {
+      position: relative;
+      background: #1a1a1a;
+      border: 2px solid red;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      flex: 1 1 250px;
+      max-width: 300px;
+      transition: transform 0.3s;
+    }
+    .hot-game:hover {
+      transform: scale(1.05);
+    }
+    .hot-game span {
+      color: gold;
+      font-weight: bold;
+    }
+    .hot-badge {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: red;
+      color: white;
+      padding: 6px 10px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      border-radius: 50px;
+      box-shadow: 0 0 10px orange;
+      animation: pulseFire 1s infinite alternate;
+    }
+    @keyframes pulseFire {
+      from { box-shadow: 0 0 10px orange; }
+      to { box-shadow: 0 0 20px red; }
+    }
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .why-grid div {
+      background: #1a1a1a;
+      padding: 20px;
+      border-left: 4px solid gold;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .why-grid div:hover {
+      transform: translateY(-5px);
+    }
+    .testimoni blockquote {
+      background: #1e1e1e;
+      padding: 20px;
+      border-left: 5px solid gold;
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      padding: 40px 20px;
+      text-align: center;
+font-size: 0.9rem;
+     }
+      .cta-btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+  <a href="/">
+    <img src="https://static.gwvkyk.com/media/5017cbc05f88686a3d6a1.png" alt="OKEBOSS Logo" style="height: 40px;">
+  </a>
+</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#games">Games</a>
+    <a href="#why">Why Us</a>
+    <a href="#Join">Join</a>
+    <a href="#cs">Contact Us</a>
+  </nav>
+</header>
+
+<div class="banner-slider">
+  <div class="banner-track">
+    <img src="https://static.gwvkyk.com/media/d38e44073f88634f002dc.png" alt="Banner 1">
+    <img src="https://static.gwvkyk.com/media/29950f273f886a1e5ec88.png" alt="Banner 2">
+    <img src="https://static.gwvkyk.com/media/fdb2c5473f886e00be9e7.png" alt="Banner 3">
+  </div>
+</div>
+
+<style>
+.banner-slider {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid gold;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+.banner-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.banner-track img {
+  width: 100%;
+  height: auto;
+  display: block;
+  flex-shrink: 0;
+  transition: transform 0.4s ease, box-shadow 0.4s;
+}
+.banner-track img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.6);
+}  
+ @media (max-width: 768px) {
+    .banner-track img {
+      width: 100%;
+    }
+  }
+</style>
+
+<script>
+  const track = document.querySelector('.banner-track');
+  const slides = document.querySelectorAll('.banner-track img');
+  let index = 0;
+
+  setInterval(() => {
+    index = (index + 1) % slides.length;
+    track.style.transform = translateX(-${index * 100}%);
+  }, 5000);
+</script>
+
+
+<section class="hero">
+  <h2>Platform Slot Paling Trusted di Malaysia</h2>
+  <p>Free Credit, Bukti Cuci Real, Fast Withdraw – Semua Ada!</p>
+  <a class="cta-btn" href="https://okeboss33.com/RF333A86077">
+    🎮 FREE TRIAL FREE GAME
+  </a>
+</section>
+
+<section id="about">
+  <h2 class="section-title">Tentang Kami</h2>
+  <p>Kami merupakan platform game online paling dipercayai sejak 2020. Dengan ribuan pemain aktif setiap hari, kami menyediakan servis yang adil, selamat dan pantas.</p>
+</section>
+
+<!-- Section: Brand Ambassador -->
+<section id="ambassador">
+  <h2 class="section-title">🤝 OKEBOSS ~ Brand Ambassador 🤝</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; align-items: center;">
+    <div style="max-width: 300px; text-align: center;">
+      <img src="https://static.gwvkyk.com/media/ab23b8ef3f8863533db3e.png" alt="Ambassador AWANG" style="width: 100%; border-radius: 12px; border: 3px solid gold; box-shadow: 0 0 10px rgba(255,215,0,0.4);">
+    </div>
+    <div style="max-width: 500px;">
+      <p style="font-size: 1.1rem; color: #ddd;">Kami sangat bangga memperkenalkan <strong>AWANG</strong> sebagai <strong>Brand Ambassador rasmi</strong> kami – seorang tokoh yang dikenali ramai dan melambangkan kepercayaan dalam dunia hiburan digital. Dengan kehadiran beliau, kami ingin menegaskan bahawa platform kami adalah dipercayai, berintegriti dan berdedikasi untuk memberi servis terbaik kepada pemain kami.</p>
+    </div>
+  </div>
+</section>  
+  
+<section id="games">
+  <h2 class="section-title">🔥 Hot Games Minggu Ini</h2>
+  <div class="hot-games-grid">
+    <div class="hot-game-row">
+      <div class="hot-game">
+        <div class="hot-badge">🔥 HOT</div>
+        🐯 Tiger Reign – RTP <span>96.8%</span>
+      </div>
+      <div class="hot-game">
+        <div class="hot-badge">🔥 HOT</div>
+        🐬 Dolphin Reef – RTP <span>97.1%</span>
+      </div>
+    </div>
+    <div class="hot-game-row">
+      <div class="hot-game">
+        <div class="hot-badge">🔥 HOT</div>
+        🍀 Lucky Panda – RTP <span>95.9%</span>
+      </div>
+      <div class="hot-game">
+        <div class="hot-badge">🔥 HOT</div>
+        👑 King Treasure – RTP <span>98.0%</span>
+      </div>
+      <div class="hot-game">
+        <div class="hot-badge">🔥 HOT</div>
+        💎 Diamond Wins – RTP <span>96.5%</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="why">
+  <h2 class="section-title">Kenapa Pilih Kami?</h2>
+  <div class="why-grid">
+    <div>✅ Trusted sejak 2020</div>
+    <div>✅ Withdraw laju (bawah 3 minit)</div>
+    <div>✅ Free Kredit harian</div>
+    <div>✅ Game provider sah & stable</div>
+    <div>✅ Support 24/7 Telegram, WhatsApp, and Live Chat</div>
+  </div>
+</section>
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trusted Gaming Platform | Free Credit & Bukti Cuci</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+    .section-title {
+      font-size: 2rem;
+      color: gold;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .testimonial-container {
+      max-width: 800px;
+      margin: 0 auto;
+      overflow: hidden;
+      height: 270px;
+      position: relative;
+    }
+    .testimonial-list {
+      display: flex;
+      flex-direction: column;
+      animation: scrollTestimonial 30s linear infinite;
+    }
+    .testimonial {
+      background: #1e1e1e;
+      padding: 20px;
+      border-left: 5px solid gold;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+    }
+    .testimonial img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .testimonial p {
+      font-style: italic;
+      color: #ddd;
+    }
+    @keyframes scrollTestimonial {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-100%); }
+    }
+  </style>
+</head>
+<body>
+
+<section class="testimoni">
+  <h2 class="section-title">Apa Kata Player?</h2>
+  <div class="testimonial-container">
+    <div class="testimonial-list">
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=1"><p>"Saya tak percaya mula-mula, tapi dah 3x cuci. Memang trusted!" – Farah, KL</p></div>
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=2"><p>"Withdraw pantas, credit masuk cepat. Terbaik!" – Amin, JB</p></div>
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=3"><p>"Support friendly dan bantu sampai settle. Suka servis ni." – Aina, Selangor</p></div>
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=4"><p>"Bonus hari-hari, tak lokek! Memang puas hati." – Jason, Penang</p></div>
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=5"><p>"Saya recommend kat semua kawan. Semua dah try dan cuci!" – Haziq, Melaka</p></div>
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=6"><p>"Game smooth, tak lag. RTP mantap!" – Shalini, Ipoh</p></div>
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=7"><p>"Telegram support sangat pantas respon. 5 bintang!" – Dinesh, Seremban</p></div>
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=8"><p>"Register je terus dapat kredit. Tak sangka semudah tu." – Hana, Johor</p></div>
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=9"><p>"Game provider original, rasa selamat main." – Khairul, Shah Alam</p></div>
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=10"><p>"Cuci tengah malam pun dapat dalam 5 minit. Laju gila!" – Syafiq, Cyberjaya</p></div>
+      <!-- Duplicate untuk loop scrolling effect -->
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=1"><p>"Saya tak percaya mula-mula, tapi dah 3x cuci. Memang trusted!" – Farah, KL</p></div>
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=2"><p>"Withdraw pantas, credit masuk cepat. Terbaik!" – Amin, JB</p></div>
+      <div class="testimonial"><img src="https://i.pravatar.cc/40?img=3"><p>"Support friendly dan bantu sampai settle. Suka servis ni." – Aina, Selangor</p></div>
+<div class="testimonial"><img src="https://static.gwvkyk.com/media/63404d314f8861c97a366.jpg"><p>"Game msih panas lagi guys❤️." – Lina, Sibu</p></div>     
+      <div class="testimonial"><img src="https://static.gwvkyk.com/media/9acf91514f886af255bf2.jpg"><p>"Ade luck lagi moi .. Baru sje dpt dalam ni game 😁😁" – Rizal, JB</p></div>  
+      <div class="testimonial"><img src="https://static.gwvkyk.com/media/e55c2e524f886a5cedacd.jpg"><p>"👍 Baru mula main dah rasa selesa dan yakin" – M.Isa, Miri</p></div>      
+      <div class="testimonial"><img src="https://static.gwvkyk.com/media/c38a4eb24f88652f99156.jpg"><p>"🔍 Tak rasa tertipu langsung, semua jujur" – Izat, Ipoh</p></div>
+      <div class="testimonial"><img src="https://static.gwvkyk.com/media/e550a7f24f886f6b5d87c.jpg"><p>"Ada game untuk semua jenis pemain. Tak bosan" – Azery, Kuching</p></div>       
+      <div class="testimonial"><img src="https://static.gwvkyk.com/media/93ccb5434f886f28176d1.jpg"><p>"Memang terbaik untuk beginner & pro." – Siti M, Melaka</p></div>     
+      <div class="testimonial"><img src="https://static.gwvkyk.com/media/b0b2aa734f88681a96794.jpg"><p>"Telegram channel dia selalu bagi update RTP" – Puyti, Kelantan</p></div>  
+      <div class="testimonial"><img src="https://static.gwvkyk.com/media/a3fe7be34f886fb39b63c.jpg"><p>"Kalau menang besar pun tak delay payment🤗" – Izal, Pahang</p></div>    
+      <div class="testimonial"><img src="https://static.gwvkyk.com/media/d4773b344f886c5be800a.jpg"><p>"👑 Rasa macam VIP bila main kat sini" – M.Tamri, Perlis</p></div>     
+      <div class="testimonial"><img src="https://static.gwvkyk.com/media/0e39ea054f886305acf0b.jpg"><p>"🙌 Free kredit tak perlu deposit pun boleh claim" – Nasrul, Sabah</p></div>        
+    </div>
+  </div>
+</section>
+
+<section id="Join">  
+<div class="game-grid">
+  <div class="game-card">
+    <div class="game-card-inner">
+      <div class="game-card-front">
+        <img src="https://static.gwvkyk.com/media/6b89d7264f8866e2a63a4.png" alt="Game 1">
+      </div>
+      <div class="game-card-back">
+        <a href="https://okeboss33.com/RF333A86077" target="_blank" class="play-btn">🎮 PLAY NOW</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="game-card">
+    <div class="game-card-inner">
+      <div class="game-card-front">
+        <img src="https://static.gwvkyk.com/media/d5ef11364f88655c7c9ee.png" alt="Game 2">
+      </div>
+      <div class="game-card-back">
+        <a href="https://okeboss33.com/RF333A86077" target="_blank" class="play-btn">🎮 PLAY NOW</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="game-card">
+    <div class="game-card-inner">
+      <div class="game-card-front">
+        <img src="https://static.gwvkyk.com/media/407b4f274f886c491007b.png" alt="Game 3">
+      </div>
+      <div class="game-card-back">
+        <a href="https://okeboss33.com/RF333A86077" target="_blank" class="play-btn">🎮 PLAY NOW</a>
+      </div>
+    </div>
+  </div>
+</div>
+    
+  
+</body>
+</html>
+<!-- Section: Payment Support -->
+<section id="payment" style="padding: 60px 20px 30px 20px;">
+  <h2 class="section-title" style="color: gold; display: flex; align-items: center; justify-content: center; gap: 10px;">
+    Payment Support
+  </h2>
+  <div style="display: flex; justify-content: center; margin-top: 25px;">
+    <img src="https://static.gwvkyk.com/media/8a292a713f8862541cea1.png"
+         alt="Payment Methods"
+         style="max-width: 600px; width: 90%; height: auto; filter: drop-shadow(0 0 6px gold);">
+  </div>
+</section>
+<!-- Section: License -->
+<section id="license" style="padding: 30px 20px 60px 20px;">
+  <h2 class="section-title" style="color: gold; display: flex; align-items: center; justify-content: center; gap: 10px;">
+    🎲 Berlesen & Audit Permainan
+  </h2>
+  <p style="text-align: center; margin-bottom: 30px; color: #ccc;">
+    Kami beroperasi secara sah dengan audit & lesen dari badan yang dipercayai dalam industri permainan digital.
+  </p>
+  <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+    <img src="https://static.gwvkyk.com/media/4e13684c2f886d434022b.png" alt="License 1" style="height: 60px; filter: drop-shadow(0 0 3px white);">
+    <img src="https://static.gwvkyk.com/media/5809a85c2f886cff6e41e.png" alt="License 2" style="height: 60px; filter: drop-shadow(0 0 3px white);">
+  </div>
+</section>
+
+<section id="cs">
+<!-- Section: CS, Social Media, Link -->
+<section id="official-links" style="padding: 60px 20px; color: #ddd; font-family: 'Montserrat', sans-serif;">
+  <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">Official Info & Links</h2>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; border-top: 1px solid #333; border-bottom: 1px solid #333;">
+
+    <!-- Contact CS -->
+    <div style="flex: 1 1 300px; padding: 20px; border-right: 1px solid #333;">
+      <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 10px;">📞 Contact CS</h3>
+      <p>📱 WhatsApp: <a href="https://wa.me/60145661574" target="_blank" class="hover-link">+6014-566 1574</a></p>
+      <p>💬 Telegram: <a href="https://t.me/OKEGANG_ADMIN" target="_blank" class="hover-link">@OKEGANG_ADMIN</a></p>
+      <p>📩 Messenger: <a href="https://m.me/778570771998837" target="_blank" class="hover-link">m.me/778570771998837</a></p>
+    </div>
+
+    <!-- Social Media -->
+    <div style="flex: 1 1 300px; padding: 20px; border-right: 1px solid #333;">
+      <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 10px;">🌐 Social Media</h3>
+      <p>📢 Channel: <a href="https://t.me/OKEBOSSOFFICIAL" target="_blank" class="hover-link">@OKEBOSSOFFICIAL</a></p>
+      <p>👥 Group: <a href="https://t.me/OKEBOSSGROUP" target="_blank" class="hover-link">@OKEBOSSGROUP</a></p>
+      <p>📘 Facebook: <a href="https://www.facebook.com/OkebossOfficial/" target="_blank" class="hover-link">OkebossOfficial</a></p>
+      <p>🔥 VIP Video: <a href="https://t.me/OKE33NONTON" target="_blank" class="hover-link">@OKE33NONTON</a></p>
+    </div>
+
+    <!-- Website Link -->
+    <div style="flex: 1 1 300px; padding: 20px;">
+      <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 10px;">🔗 Website Access</h3>
+      <p>📝 Register: <a href="https://okeboss33.com/RF333A86077" target="_blank" class="hover-link">Click here</a></p>
+      <p>🔓 Login: <a href="https://okebos33.com/RF333A86077" target="_blank" class="hover-link">Click here</a></p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Hover Effect Style -->
+<style>
+  .hover-link {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .hover-link:hover,
+  .hover-link:active {
+    color: #00aaff;
+  }
+</style>
+
+<style>
+  .game-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .game-card {
+    width: 280px;
+    height: 350px;
+    perspective: 1000px;
+  }
+
+  .game-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .game-card:hover .game-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .game-card-front, .game-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 2px solid gold;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .game-card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #000;
+    padding: 10px;
+  }
+.game-card-back {
+    transform: rotateY(180deg);
+    flex-direction: column;
+    gap: 10px;
+    background: #111;
+    box-shadow: 0 0 15px gold;
+  }
+
+  .play-btn {
+    display: inline-block;
+    background: gold;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 1rem;
+    text-decoration: none;
+    box-shadow: 0 0 10px gold;
+    transition: 0.3s;
+    animation: pulseBtn 2s infinite;
+  }
+
+  .play-btn:hover {
+    background: #fff700;
+    transform: scale(1.1);
+    color: #111;
+  }
+
+  @keyframes pulseBtn {
+    0% { box-shadow: 0 0 10px gold; }
+    50% { box-shadow: 0 0 20px #f2e65c; }
+    100% { box-shadow: 0 0 10px gold; }
+  }
+</style>
+
+<!-- Customer Service Popup -->
+<style>
+  .cs-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #111;
+    color: white;
+    border: 2px solid gold;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 12px rgba(255, 215, 0, 0.4);
+    z-index: 9999;
+    width: 220px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .cs-popup h4 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: gold;
+    text-align: center;
+  }
+
+  .cs-option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #222;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: background 0.3s, transform 0.2s;
+  }
+
+  .cs-option:hover {
+    background: #0055ff;
+    transform: scale(1.05);
+  }
+
+  .cs-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+  }
+</style>
+
+<div class="cs-popup" id="csPopup">
+  <div class="cs-close" onclick="document.getElementById('csPopup').style.display='none'">✖️</div>
+  <h4>🛎 Perlu Bantuan?</h4>
+  <a href="https://wa.me/60145661574" class="cs-option" target="_blank">💬 WhatsApp</a>
+  <a href="https://okeboss33.com/chatroom" class="cs-option" target="_blank">💬 Live Chat</a>
+</div>
+  
+<!-- 🎁 CHECK-IN POPUP -->
+<style>
+  .checkin-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #222;
+    color: white;
+    padding: 25px 35px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px gold;
+    z-index: 9999;
+    width: 480px;
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+  }
+
+  .checkin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  .checkin-button {
+    background: orange;
+    color: white;
+    font-weight: bold;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px orange;
+    transition: background 0.3s, transform 0.2s;
+    animation: pulseGlow 1s infinite alternate;
+  }
+
+  .checkin-button:hover {
+    background: #ffcc00;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px gold;
+  }
+
+  @keyframes pulseGlow {
+    from { box-shadow: 0 0 10px orange; }
+    to { box-shadow: 0 0 20px gold; }
+  }
+
+  .gift-days {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-wrap: nowrap;
+  }
+
+  .gift-day {
+    text-align: center;
+    font-size: 0.75rem;
+    flex: 1 1 12%;
+  }
+
+  .gift-day img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .popup-close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  @media (max-width: 500px) {
+    .checkin-popup {
+      width: 92%;
+    }
+
+    .gift-day img {
+      width: 42px;
+      height: 42px;
+    }
+
+    .checkin-header {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+</style>
+
+<div class="checkin-popup" id="checkinPopup">
+  <div class="popup-close" onclick="document.getElementById('checkinPopup').style.display='none'">✖</div>
+  <div class="checkin-header">
+    <span>Log masuk untuk free credit > </span>
+    <button class="checkin-button" onclick="window.location.href='https://okeboss33.com/RF333A86077'">🎮Claim</button>
+  </div>
+  <div class="gift-days">
+    <div class="gift-day"><img src="https://static.gwvkyk.com/media/3b15c4fc4f886d8efb521.png"><br>Hari 1</div>
+    <div class="gift-day"><img src="https://static.gwvkyk.com/media/3b15c4fc4f886d8efb521.png"><br>Hari 2</div>
+    <div class="gift-day"><img src="https://static.gwvkyk.com/media/3b15c4fc4f886d8efb521.png"><br>Hari 3</div>
+    <div class="gift-day"><img src="https://static.gwvkyk.com/media/3b15c4fc4f886d8efb521.png"><br>Hari 4</div>
+    <div class="gift-day"><img src="https://static.gwvkyk.com/media/3b15c4fc4f886d8efb521.png"><br>Hari 5</div>
+    <div class="gift-day"><img src="https://static.gwvkyk.com/media/3b15c4fc4f886d8efb521.png"><br>Hari 6</div>
+    <div class="gift-day"><img src="https://static.gwvkyk.com/media/3b15c4fc4f886d8efb521.png"><br>Hari 7</div>
+  </div>
+</div>
+
+<script>
+  setTimeout(() => {
+    document.getElementById('checkinPopup').style.display = 'block';
+  }, 10000); // 10 detik
+</script>
+
+</script>
+
+  
